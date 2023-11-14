@@ -101,7 +101,8 @@ const Blog: React.FC<BlogProps> = () => {
 
             <button
               onClick={handleAddTodo}
-              className="p-3 bg-green-500 rounded-md"
+              disabled={!inputText}
+              className="p-3 bg-green-500 rounded-md disabled:cursor-not-allowed disabled:bg-green-300"
             >
               <AiOutlinePlus color="#fff" />
             </button>
