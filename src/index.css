@@ -1,0 +1,33 @@
+@import "./styles/tailwind.css";
+pre {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: "Courier New", monospace;
+}
+
+/* Add PrismJS styles */
+.token {
+  font-style: italic;
+}
+
+.keyword {
+  color: #569cd6;
+}
+
+.comment {
+  color: #6a9955;
+}
+
+.string {
+  color: #d4d4d4;
+}
+
+.number {
+  color: #b5cea8;
+}
