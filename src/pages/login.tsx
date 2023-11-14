@@ -45,32 +45,6 @@ const LoginForm: React.FC = () => {
   };
 
   return (
-    // <div className="bg-slate-600">
-    //   <h2>Login Form</h2>
-    //   <TextInput
-    //     label="email"
-    //     type="text"
-    //     placeholder="Enter your email"
-    //     name="email"
-    //     value={formData.email}
-    //     onChange={handleInputChange}
-    //   />
-    //   <TextInput
-    //     label="Password"
-    //     type="password"
-    //     placeholder="Enter your password"
-    //     name="password"
-    //     value={formData.password}
-    //     onChange={handleInputChange}
-    //   />
-    //   <button
-    //     onClick={handleLogin}
-    //     disabled={isLoading}
-    //     className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition duration-150 ease-in-out"
-    //   >
-    //     {isLoading ? <Loading /> : "Login"}
-    //   </button>
-    // </div>
     <div className="flex flex-col justify-center min-h-screen py-12 bg-gray-50 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <h2 className="mt-6 text-3xl font-extrabold text-center text-gray-900 leading-9">

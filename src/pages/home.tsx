@@ -6,7 +6,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const token = localStorage.getItem("token");
+    const token = sessionStorage.getItem("token");
 
     if (!token) {
       // If there is no token, navigate to the login page
@@ -20,7 +20,7 @@ const Home = () => {
       <div
         className=" w-10 mx-auto"
         onClick={() => {
-          localStorage.clear();
+          sessionStorage.clear();
           window.location.reload();
         }}
       >
