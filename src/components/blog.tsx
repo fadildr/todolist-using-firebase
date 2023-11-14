@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React, { useState, useEffect, ChangeEvent, FormEvent } from "react";
+import React, { useState, useEffect, ChangeEvent } from "react";
 import { firestore } from "../firebaseConfig";
 import {
   collection,
